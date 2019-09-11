@@ -27,21 +27,6 @@
                 内容区域：社区（热门作品，热门活动），供稿
                 底部区域：合作品牌，关于我们
 
-## 项目结构
-    入门文件：main.js 路由文件：router.js app.vue
-    组件文件夹 components: home:home.vue
-                          photoWarehouse:
-                          community:community.vue
-                                    activity.vue
-                          find:tag.vue
-                               photographers.vue
-                               tutorial.vue
-                               equipment.vue
-                          communication:
-                          more:
-                          provideWork
-              subcomponents:footer.vue
-                            photoinfo.vue
                             
 ## 响应式导航栏设计：
    1，调用element-ui的nav组件->点击每一项，传值data,再实现激活高亮
@@ -50,9 +35,6 @@
       2.2 解决方案：调用element的类，当屏幕为xs,sm时隐藏起来 需要在main.js导入css文件 再在元素类名中
           加 hidden-xs-only hidden-sm-only
                                 
-
-
-       
 
 
 ## 重点：
